@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="3719831e8b7a43f39193e6cd49d55aa9" Name="Diagram1">
+        <EntityTypeShape EntityType="SuitAppResDBModel.Billing" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SuitAppResDBModel.BillingReturn" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SuitAppResDBModel.BillPayment" Width="1.5" PointX="4.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SuitAppResDBModel.customer" Width="1.5" PointX="4.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SuitAppResDBModel.DirectSale" Width="1.5" PointX="6.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SuitAppResDBModel.DirectSalesDetail" Width="1.5" PointX="4.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SuitAppResDBModel.EmpRoute" Width="1.5" PointX="6.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SuitAppResDBModel.FinancialYear" Width="1.5" PointX="8.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SuitAppResDBModel.ItemCategory" Width="1.5" PointX="8.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SuitAppResDBModel.KOT" Width="1.5" PointX="10.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SuitAppResDBModel.KOTDetail" Width="1.5" PointX="10.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SuitAppResDBModel.login" Width="1.5" PointX="0.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SuitAppResDBModel.Login_status" Width="1.5" PointX="8.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SuitAppResDBModel.MAC" Width="1.5" PointX="10.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SuitAppResDBModel.Product" Width="1.5" PointX="12.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SuitAppResDBModel.RoleList" Width="1.5" PointX="12.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SuitAppResDBModel.RootPosition" Width="1.5" PointX="12.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SuitAppResDBModel.SaleOrderDetailsTemp" Width="1.5" PointX="2.75" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SuitAppResDBModel.SalesOrder" Width="1.5" PointX="4.75" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SuitAppResDBModel.SalesOrderDetail" Width="1.5" PointX="14.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SuitAppResDBModel.State" Width="1.5" PointX="14.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SuitAppResDBModel.Supplier" Width="1.5" PointX="6.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SuitAppResDBModel.TABLE_CATEGORY" Width="1.5" PointX="14.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SuitAppResDBModel.TABLE_DETAILS" Width="1.5" PointX="14.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SuitAppResDBModel.tbl_Item_Image" Width="1.5" PointX="8.75" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SuitAppResDBModel.UserLoginHistory" Width="1.5" PointX="10.75" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SuitAppResDBModel.AccountBalance" Width="1.5" PointX="12.75" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SuitAppResDBModel.AccountDataEntry" Width="1.5" PointX="14.75" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SuitAppResDBModel.Accout" Width="1.5" PointX="16.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SuitAppResDBModel.AcGroupMaster" Width="1.5" PointX="0.75" PointY="16.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SuitAppResDBModel.AcHead" Width="1.5" PointX="16.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SuitAppResDBModel.AcTran" Width="1.5" PointX="18.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SuitAppResDBModel.Allocation" Width="1.5" PointX="18.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SuitAppResDBModel.Bank" Width="1.5" PointX="18.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SuitAppResDBModel.BatchDetaile" Width="1.5" PointX="18.75" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SuitAppResDBModel.BillingDetailsEdittedDiscount" Width="1.5" PointX="18.75" PointY="17.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SuitAppResDBModel.BillingEdittedDiscount" Width="1.5" PointX="2.75" PointY="19.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SuitAppResDBModel.BillingForEstrimate" Width="1.5" PointX="4.75" PointY="19.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SuitAppResDBModel.BillinigDetail" Width="1.5" PointX="6.75" PointY="19.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SuitAppResDBModel.BillinigDetailsForEstimate" Width="1.5" PointX="8.75" PointY="19.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SuitAppResDBModel.BillinigReturnDetail" Width="1.5" PointX="10.75" PointY="19.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SuitAppResDBModel.BillinigTempDetail" Width="1.5" PointX="20.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SuitAppResDBModel.CompanyInfo" Width="1.5" PointX="20.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SuitAppResDBModel.Container" Width="1.5" PointX="20.75" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SuitAppResDBModel.CumsterPendingAmount" Width="1.5" PointX="20.75" PointY="16.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SuitAppResDBModel.Currency" Width="1.5" PointX="20.75" PointY="21.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SuitAppResDBModel.Discount" Width="1.5" PointX="22.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SuitAppResDBModel.EmpRouteDistributr" Width="1.5" PointX="22.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SuitAppResDBModel.form" Width="1.5" PointX="22.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SuitAppResDBModel.GeneralSetting" Width="1.5" PointX="22.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SuitAppResDBModel.ItemMiscellaniou" Width="1.5" PointX="22.75" PointY="17.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SuitAppResDBModel.ItemPatternDetail" Width="1.5" PointX="22.75" PointY="20.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SuitAppResDBModel.ItemStockTemp" Width="1.5" PointX="12.75" PointY="23.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SuitAppResDBModel.Loading" Width="1.5" PointX="14.75" PointY="23.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SuitAppResDBModel.Location" Width="1.5" PointX="24.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SuitAppResDBModel.NewCustomer" Width="1.5" PointX="24.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SuitAppResDBModel.openingstock" Width="1.5" PointX="24.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SuitAppResDBModel.OpeningstockDetaile" Width="1.5" PointX="24.75" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SuitAppResDBModel.Payment" Width="1.5" PointX="16.75" PointY="24.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SuitAppResDBModel.Permission" Width="1.5" PointX="18.75" PointY="24.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SuitAppResDBModel.PL" Width="1.5" PointX="24.75" PointY="20.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SuitAppResDBModel.Purchase" Width="1.5" PointX="24.75" PointY="25.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SuitAppResDBModel.PurchaseDetail" Width="1.5" PointX="26.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SuitAppResDBModel.PurchaseOrder" Width="1.5" PointX="26.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SuitAppResDBModel.PurchaseOrderDetail" Width="1.5" PointX="26.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SuitAppResDBModel.PurchaseReturn" Width="1.5" PointX="26.75" PointY="19.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SuitAppResDBModel.PurchaseReturnDetail" Width="1.5" PointX="0.75" PointY="27.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SuitAppResDBModel.Receipt" Width="1.5" PointX="6.75" PointY="27.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SuitAppResDBModel.RootMaster" Width="1.5" PointX="8.75" PointY="27.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SuitAppResDBModel.StockAdjestment" Width="1.5" PointX="10.75" PointY="27.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SuitAppResDBModel.StockAdjestmentDetaile" Width="1.5" PointX="12.75" PointY="27.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SuitAppResDBModel.StockRegister" Width="1.5" PointX="20.75" PointY="27.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SuitAppResDBModel.StockRegisterFoeEstimate" Width="1.5" PointX="26.75" PointY="27.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SuitAppResDBModel.TaxSetting" Width="1.5" PointX="28.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SuitAppResDBModel.Tmp_CompanyInfo" Width="1.5" PointX="28.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SuitAppResDBModel.Unit" Width="1.5" PointX="28.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SuitAppResDBModel.UnitMaster" Width="1.5" PointX="28.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SuitAppResDBModel.UserTable" Width="1.5" PointX="28.75" PointY="17.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SuitAppResDBModel.VanLoadingSheet" Width="1.5" PointX="28.75" PointY="24.75" IsExpanded="true" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

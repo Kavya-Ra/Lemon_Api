@@ -1,0 +1,168 @@
+﻿@model SuitappRest.Context.Product
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Delete</title>
+</head>
+<body>
+    <h3>Are you sure you want to delete this?</h3>
+    <div>
+        <h4>Product</h4>
+        <hr />
+        <dl class="dl-horizontal">
+            <dt>
+                @Html.DisplayNameFor(model => model.ItemID)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.ItemID)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.ItemName)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.ItemName)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.MRP)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.MRP)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.WP)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.WP)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.CategoryID)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.CategoryID)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.IsDeleted)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.IsDeleted)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.stock)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.stock)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.ManufactureID)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.ManufactureID)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.Tax)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.Tax)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.HSNCode)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.HSNCode)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.CCP)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.CCP)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.FCessRate)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.FCessRate)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.TVMRate)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.TVMRate)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.WayanadRate)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.WayanadRate)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.KasRate)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.KasRate)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.ItemUnitType)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.ItemUnitType)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.Image)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.Image)
+            </dd>
+    
+        </dl>
+    
+        @using (Html.BeginForm()) {
+            @Html.AntiForgeryToken()
+    
+            <div class="form-actions no-color">
+                <input type="submit" value="Delete" class="btn btn-default" /> |
+                @Html.ActionLink("Back to List", "Index")
+            </div>
+        }
+    </div>
+</body>
+</html>
